@@ -12,7 +12,7 @@ end
 def reverse_each_word(sen)
   words = sen.split(" ")
   
-  words.collect do 
+  words.collect do ||
     
   end
 end
