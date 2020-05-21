@@ -12,6 +12,6 @@ end
 def reverse_each_word(sen)
   words = sen.split(" ")
   rev_words = []
-  words.collect {|word| rev_words.push(word.reverse!)}
+  words.collect{|word| rev_words.push(word.reverse!)}
   rev_words.join(" ")
 end
