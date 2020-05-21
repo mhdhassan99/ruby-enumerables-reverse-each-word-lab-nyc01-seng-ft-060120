@@ -4,5 +4,5 @@ def reverse_each_word(sen)
   words.each do |word|
     rev_words.push(word.reverse!)
   end
-  
+  rev_words
 end
